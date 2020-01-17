@@ -29,8 +29,29 @@ namespace MethodExercise
 
             Console.WriteLine($"Your favorite band is {favoriteBand}");
 
-
+            AddNumbers(2, 4);
+            Console.WriteLine(AddNumbers(2, 4));
+            Console.WriteLine(Product(10, 2));
 
         }
+
+        public static int AddNumbers(int x, int y)
+        {
+            return x + y;
+
+        }
+
+        public static int Product(int a, int b)
+        {
+            return a * b;
+
+        }
+           
+
+       
+        
+
+
     }
+
 }
